@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div id="main">
       < Heading/>
+    < SubHeading/>
       < inputQuerry/>
-      < SubHeading/>
       < SubmitButton/>
     </div>
   )

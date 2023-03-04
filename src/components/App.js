@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 
 import SubmitButton from './SubmitButton.js';
 import SubHeading from './SubmitButton.js';
-import InputQuerry from './InputQuery.js';
+import inputQuerry from './InputQuery.js';
 import Heading from './Heading.js';
 
 import '../styles/App.css';

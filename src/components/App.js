@@ -1,22 +1,18 @@
 import React, { Component, useState } from "react";
-
-import SubmitButton from './SubmitButton.js';
-import SubHeading from './SubHeading.js';
-import inputQuerry from './InputQuery.js';
-import Heading from './Heading.js';
-
 import '../styles/App.css';
+import Heading from './Heading';
+import SubHeading from './SubHeading';
+import InputQuery from './InputQuery';
+import SubmitButton from './SubmitButton';
 
 const App = () => {
   return (
     <div id="main">
       < Heading/>
-    < SubHeading/>
-      < inputQuerry/>
+      < SubHeading/>
+      < InputQuery/>
       < SubmitButton/>
     </div>
   )
 }
-
 export default App;
-
